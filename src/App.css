@@ -1,0 +1,83 @@
+.wrapper{
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #1A1A1A;
+  box-shadow: 0px 439px 176px rgba(0, 0, 0, 0.02), 0px 247px 148px rgba(0, 0, 0, 0.06), 0px 110px 110px rgba(0, 0, 0, 0.1), 0px 27px 60px rgba(0, 0, 0, 0.12), 0px 0px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 80px;
+  border: 20px solid #F0F0F0;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+.buttonBlock{
+  display: flex;
+  flex-direction: row;
+  gap: 10px 10px;
+}
+
+.countStyle_error{
+  color: red;
+  border: cyan 2px solid;
+  border-radius: 10px;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 125px;
+  margin-bottom: 15px;
+  background-color: brown;
+
+}
+
+.countStyle{
+  color: black;
+  width: 100%;
+  border: cyan 2px solid;
+  border-radius: 10px;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 125px;
+  margin-bottom: 15px;
+  background-color: brown;
+
+}
+
+.buttons {
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  color: #000000;
+  cursor: pointer;
+  background-color: #5BD5FB;
+  border: 5px solid #f507f1;
+}
+
+.input {
+  padding: 5px;
+  border-radius: 10px
+}
+
+.inputBlock{
+  width: 340px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+.title{
+  color: #f507f1;
+  font-size: 20px;
+}
